@@ -1,0 +1,24 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'bmi.py'
+ outputting to 'bm1.py'
+--------------------------------------------------------------------------------
+
+21:5: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+22:5: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+31:17: INFO: Added keywords to args of function 'tf.reduce_sum'
+31:36: INFO: Renamed 'tf.log' to 'tf.math.log'
+32:12: INFO: Renamed 'tf.train.GradientDescentOptimizer' to 'tf.compat.v1.train.GradientDescentOptimizer'
+36:19: INFO: Added keywords to args of function 'tf.argmax'
+36:36: INFO: Added keywords to args of function 'tf.argmax'
+37:11: INFO: Added keywords to args of function 'tf.reduce_mean'
+--------------------------------------------------------------------------------
+
